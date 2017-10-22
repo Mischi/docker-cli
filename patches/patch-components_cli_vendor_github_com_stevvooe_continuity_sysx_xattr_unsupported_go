@@ -1,0 +1,10 @@
+$OpenBSD$
+index a8dd9f24..82b9e414 100644
+--- components/cli/vendor/github.com/stevvooe/continuity/sysx/xattr_unsupported.go
++++ components/cli/vendor/github.com/stevvooe/continuity/sysx/xattr_unsupported.go
+@@ -1,4 +1,4 @@
+-// +build freebsd solaris
++// +build openbsd freebsd solaris
+ 
+ package sysx
+ 

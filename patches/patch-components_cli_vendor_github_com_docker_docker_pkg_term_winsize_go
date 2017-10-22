@@ -1,0 +1,8 @@
+$OpenBSD$
+index 85c4d9d6..2c76ab88 100644
+--- components/cli/vendor/github.com/docker/docker/pkg/term/winsize.go
++++ components/cli/vendor/github.com/docker/docker/pkg/term/winsize.go
+@@ -1,4 +1,4 @@
+-// +build !solaris,!windows
++// +build !solaris,!windows,!openbsd
+
